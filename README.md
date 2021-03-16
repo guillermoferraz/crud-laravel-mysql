@@ -1,3 +1,38 @@
+Simple crud application demo made with Laravel and MySql as a database.
+
+Application with authentication, user account, protection of routes and crud for data only of the user profile.
+In the home where the data of all the users can be shared, it is not possible to create, edit or delete data.
+It is an example of how to handle data and permissions between users and data modification.
+
+REQUIREMENTS IN SQL TABLE.
+
+create database name = laravelMysql
+
+FILE .env
+
+APP_URL: http: // localhost
+
+DB_CONNECTION = mysql
+DB_HOST = 127.0.0.1
+DB_PORT = 3306
+DB_DATABASE = laravelMysql
+DB_USERNAME = your mysql username
+DB_PASSWORD = your mysql password
+
+INSTALATION.
+
+INSIDE THE PROJECT FOLDER
+
+composer install
+npm install
+npm run dev
+php artisan migrate
+
+Run your 'apache server' or 'php artisan serve' in the root folder of the project.
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
