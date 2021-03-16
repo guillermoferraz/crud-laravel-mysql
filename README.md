@@ -4,7 +4,7 @@ Application with authentication, user account, protection of routes and crud for
 In the home where the data of all the users can be shared, it is not possible to create, edit or delete data.
 It is an example of how to handle data and permissions between users and data modification.
 
-REQUIREMENTS IN SQL TABLE.
+REQUIREMENTS SQL .
 
 create database name = laravelMysql
 
