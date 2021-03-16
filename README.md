@@ -23,10 +23,13 @@ INSTALATION.
 
 INSIDE THE PROJECT FOLDER
 
-composer install
-npm install
-npm run dev
-php artisan migrate
+'composer install'
+
+'npm install'
+
+'npm run dev'
+
+'php artisan migrate'
 
 Run your 'apache server' or 'php artisan serve' in the root folder of the project.
 
